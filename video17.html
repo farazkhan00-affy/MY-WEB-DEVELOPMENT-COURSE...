@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selecter</title>
+    <style>
+        /* element selecter */
+        div{
+            /* background-color: aqua; */
+        }
+        /* class selecter */
+        .red{
+            background-color: blueviolet;
+        }
+        /* id selecter */
+        #green{
+            background-color: darkblue;
+        }
+        /* child seelecter */
+        div > p {
+            color: blanchedalmond;
+            background-color: darkslategray;
+        }
+        /* decendent selecter */
+           div  p {
+            color: blanchedalmond;
+            background-color: darkslategray;
+        }
+        /* universal selecter */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* pseudo selecter */
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color: green;
+
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        .one{
+            color: orange;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="red">
+        I AM A DANGER
+        <article>
+        <p>i am a para inside a div</p>
+        </article>
+    </div>
+    <div id="green">
+        FARAZ HUSSAIN
+    </div>
+    <div class="one">my name is thomas shelby</div>
+    <a href="https://www.google.com">go to google</a>
+    <a href="https://www.facebook2.com">go to facebook</a>
+
+</body>
+</html>
